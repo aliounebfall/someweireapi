@@ -11,7 +11,7 @@ To run the API, you will need :
 
 * **Docker** : Install Docker, to pull images of Kafka, Zookeeper, Ganache and Neo4j.
 
-* **Truffle**: Install Truffle, to **compile** and **deploy contracts**, and connect to the **Ganache Node**.
+* **Truffle**: Install Truffle, to **compile** and **deploy contracts** to the **Ganache Node**.
 
 * A **Ganache-Cli** node, to simulate an ETH blockchain node, and interact with your contracts. Pull the docker image **trufflesuite/ganache-cli** 
 
