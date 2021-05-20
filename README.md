@@ -1,5 +1,5 @@
 # someweireapi
-An Api to solve **riddles**, win **ERC20 tokens**, forge **ERC721 tokens** with random types and rarities, and trade them with decentralized **auctions**.
+A **Node.js Api** to solve **riddles**, win **ERC20 tokens**, forge **ERC721 tokens** with random types and rarities, and trade them with decentralized **auctions**.
 
 The API is a template, for a **decentralized riddle web game**. The goal is to solve riddles. Each riddle solved rewards an amount of ERC20 tokens, which are of 3 types, called **Weivellite**, **Weither** and **Weillenium**.
 
