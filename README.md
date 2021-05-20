@@ -21,4 +21,6 @@ To run the API, you will need :
 
 * A **Neo4J** node, as the database. Pull the docker image **neo4j**.
 
+* **Postman**, to request the API routes.
+
 Edit the **.env** file with your custom URIs to run the API.
