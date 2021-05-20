@@ -6,3 +6,7 @@ The API is a template, for a **decentralized riddle web game**. The goal is to s
 The player can then **forge** an ERC721 Token, named **Artifact**, with amounts of ERC20 tokens of the 3 types. The amounts and a **RNG** will determine the type and rarity of the Artifcact : **Common**, **Rare** and **Legendary** rarities, and **Technology**, **Art** and **Material** types.
 
 The player can then sell artifacts for Weivellite, Weither and Weillenium Tokens, by creating **decentralized auction contracts**.
+
+The API runs with **Kafka**, to subscribe to the **Someweiremicroservice** that **subscribes** to **blockchain events** and **publishes** transfer events for Weive Tokens and the Artifact Token to Kafka.
+
+The API runs a **Neo4j** database, and connects to a local **Ganache ETH node**, without gas fees. 
