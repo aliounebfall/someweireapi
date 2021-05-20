@@ -19,6 +19,6 @@ To run the API, you will need :
 
 * A **Kafka** node, to subscribe to the **Someweiremicroservice** that **subscribes** to **blockchain events** and **publishes** transfer events for Weive Tokens and the Artifact Token to Kafka. Pull the docker image **confluentinc/cp-kafka**.
 
-* An **Neo4J** node, as the database. Pull the docker image **neo4j**.
+* A **Neo4J** node, as the database. Pull the docker image **neo4j**.
 
 Edit the **.env** file with your custom URIs to run the API.
